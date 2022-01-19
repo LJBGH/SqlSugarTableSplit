@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SugarTableSplit.Model\SugarTableSplit.Model.csproj" />
+    <ProjectReference Include="..\SugarTableSplit.Utils\SugarTableSplit.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

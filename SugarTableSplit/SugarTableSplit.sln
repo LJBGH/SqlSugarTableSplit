@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarTableSplit", "SugarTableSplit.csproj", "{35380772-680C-43D5-9D5A-0B35547EE8C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarTableSplit.Utils", "..\SugarTableSplit.Utils\SugarTableSplit.Utils.csproj", "{0718C050-5070-4BDC-A9AF-B73BD1351832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarTableSplit.Model", "..\SugarTableSplit.Model\SugarTableSplit.Model.csproj", "{CEF64CDF-7703-4F83-B2FC-085AD32EFFAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarTableSplit.Services", "..\SugarTableSplit.Services\SugarTableSplit.Services.csproj", "{C30A6D12-48A7-4F58-B1C5-FE7C81C21FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarTableSplit.IServices", "..\SugarTableSplit.IServices\SugarTableSplit.IServices.csproj", "{0A1F8163-6284-4B23-B314-DC10EF98A1EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Appaction", "1.Appaction", "{FE75E4B4-7EA4-493F-A2B4-A94E0FE8E30C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Basiness", "2.Basiness", "{A71FBD51-6C07-4FA1-BBAF-E086A9E55258}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Common", "3.Common", "{3DC4E444-157E-4539-BA39-8992FD713033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35380772-680C-43D5-9D5A-0B35547EE8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35380772-680C-43D5-9D5A-0B35547EE8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35380772-680C-43D5-9D5A-0B35547EE8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35380772-680C-43D5-9D5A-0B35547EE8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0718C050-5070-4BDC-A9AF-B73BD1351832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0718C050-5070-4BDC-A9AF-B73BD1351832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0718C050-5070-4BDC-A9AF-B73BD1351832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0718C050-5070-4BDC-A9AF-B73BD1351832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF64CDF-7703-4F83-B2FC-085AD32EFFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF64CDF-7703-4F83-B2FC-085AD32EFFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF64CDF-7703-4F83-B2FC-085AD32EFFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF64CDF-7703-4F83-B2FC-085AD32EFFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30A6D12-48A7-4F58-B1C5-FE7C81C21FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30A6D12-48A7-4F58-B1C5-FE7C81C21FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30A6D12-48A7-4F58-B1C5-FE7C81C21FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30A6D12-48A7-4F58-B1C5-FE7C81C21FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1F8163-6284-4B23-B314-DC10EF98A1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1F8163-6284-4B23-B314-DC10EF98A1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1F8163-6284-4B23-B314-DC10EF98A1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1F8163-6284-4B23-B314-DC10EF98A1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35380772-680C-43D5-9D5A-0B35547EE8C0} = {FE75E4B4-7EA4-493F-A2B4-A94E0FE8E30C}
+		{0718C050-5070-4BDC-A9AF-B73BD1351832} = {3DC4E444-157E-4539-BA39-8992FD713033}
+		{CEF64CDF-7703-4F83-B2FC-085AD32EFFAF} = {A71FBD51-6C07-4FA1-BBAF-E086A9E55258}
+		{C30A6D12-48A7-4F58-B1C5-FE7C81C21FA4} = {A71FBD51-6C07-4FA1-BBAF-E086A9E55258}
+		{0A1F8163-6284-4B23-B314-DC10EF98A1EA} = {A71FBD51-6C07-4FA1-BBAF-E086A9E55258}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E9E2F91-DE9D-4B18-BF7D-24BA76A26B4F}
+	EndGlobalSection
+EndGlobal
